@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#71ABDF"
+tools:context=".details_activity">
+
+
+
+<com.google.android.material.bottomappbar.BottomAppBar
+    android:id="@+id/bottom_bar"
+    app:fabCradleMargin="7dp"
+    app:fabCradleRoundedCornerRadius="18dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:background="@drawable/static_rv_selected"
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="15dp"/>
+        //app:menu="@menu/menu"/>
+
+
+</com.google.android.material.bottomappbar.BottomAppBar>
+
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/doctor2"
+    app:layout_anchor="@id/bottom_bar"
+    android:layout_marginVertical="5dp"
+    android:contentDescription="TODO" />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_weight="393"
+        android:background="@color/white"
+        android:paddingVertical="6dp"
+        android:paddingStart="40dp"
+        android:text="Details"
+        android:textColor="#0F0C0C"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="376dp"
+        android:paddingStart="5dp"
+        app:srcCompat="@drawable/doctor1" />
+
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="Dr. Albadur Rahman MBBS,DDV"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="40dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="191dp"
+        android:layout_height="163dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="-96dp"
+        android:src="@drawable/doctor3" />
+
+
+</RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/static_rv_selected" />
+
+    <TextView
+        android:id="@+id/ibnSina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Ibn Sina Hospital Sylhet Limited"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"/>
+
+
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="393dp"
+        android:layout_height="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="385dp"
+        android:paddingVertical="28sp"
+        android:paddingStart="10dp"
+        android:text="Chamber add: Shubhani Ghat Point Sylhet Sadar"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@drawable/static_rv_selected"/>
+
+</RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="393dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="480dp"
+        android:paddingVertical="28sp"
+        android:paddingStart="10dp"
+        android:text="Serial:+8809636300300"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@drawable/static_rv_selected"/>
+
+
+</RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="393dp"
+        android:layout_height="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="570dp"
+        android:paddingVertical="28sp"
+        android:paddingStart="10dp"
+        android:text="Visiting free: 600 Tk"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@drawable/static_rv_selected"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="44.3dp"
+        android:background="#D1D9DD" />
+
+
+
+</RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
